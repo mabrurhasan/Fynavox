@@ -11,7 +11,7 @@ AI-powered healthcare intelligence platform for real-time patient monitoring and
 ```bash
 cd frontend
 npm install
-cp .env.local.example .env.local
+cp .env.local.example.env.local
 npm run dev
 ```
 
