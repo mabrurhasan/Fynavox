@@ -90,6 +90,6 @@ FynavoX/
 - Alert simulation: HR 78→128, SpO₂ 98→88, Temp 36.7→38.6
 - Enterprise healthcare SaaS UI (white, medical blue, navy)
 
----
+--
 
 © 2026 FynavoX Healthcare Intelligence · Pilot Prototype
