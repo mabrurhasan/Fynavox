@@ -15,8 +15,8 @@ cp .env.local.example.env.local
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
-
+Open [
+fynavox.vercel.app]
 ### Backend (FastAPI + WebSockets)
 
 ```bash
