@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --medical-blue: #0069c6;
+  --navy-dark: #0f1729;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-navy-900 antialiased;
+}
+
+@layer utilities {
+  .text-gradient-medical {
+    @apply bg-gradient-to-r from-medical-600 to-medical-800 bg-clip-text text-transparent;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-slate-300;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400;
+}
+
+@keyframes ecg-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.ecg-scroll {
+  display: flex;
+  animation: ecg-scroll linear infinite;
+}
