@@ -16,7 +16,7 @@ npm run dev
 ```
 
 Open [
-fynavox.vercel.app]
+      fynavox.vercel.app. ]
 ### Backend (FastAPI + WebSockets)
 
 ```bash
