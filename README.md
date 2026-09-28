@@ -27,8 +27,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-API: [http://localhost:8000](http://localhost:8000)  
-WebSocket: `ws://localhost:8000/ws/patients`
 
 ## Demo Flow (Recommended for Presentations)
 
